@@ -19,13 +19,19 @@ function deleteToDo(event) {
 function printToDo(inputed) {
   const li = document.createElement("li");
   li.id = inputed.id;
-  const span = document.createElement("span");
+  const check = document.createElement("input");
+  check.type = "checkbox";
+  // check.classList.add("text-hide")
+  const span = document.createElement("label");
   span.innerText = inputed.text;
+  span.setAttribute('label', inputed.id)
   const button = document.createElement("button");
   button.innerText = "❌";
   button.addEventListener("click", deleteToDo);
+  // li.prepend(check);
   li.appendChild(span);
   li.appendChild(button);
+  li.appendChild(check)
   todoList.appendChild(li);
 }
 

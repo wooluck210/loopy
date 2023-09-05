@@ -34,9 +34,16 @@ body {
   border-radius: 20px 20px 0px 0px;
   border-bottom: 4px solid #DDD;
   background: #FFF;
+  padding-top: 15px;
 
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.todo-title {
+  display: flex;
+  gap: 30px;
 }
 .sign {
   width: 8px;
@@ -51,7 +58,14 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-left: 31px;
+  /* margin-left: 31px; */
+}
+
+/* 할 일 입력 */
+.todo-form{
+  /* width: 300px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
@@ -69,7 +83,7 @@ ul {
 
 ul li {
   width: 83%;
-  height: 48px;
+  padding : 12px 0 12px 15px;
   border-radius: 10px;
   /* box-shadow: 0 0 0 4px #D9D9D9; */
   border: 4px solid #D9D9D9;
@@ -84,7 +98,6 @@ ul li {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 15px;
 }
 
 /* li:nth-child(2) {
@@ -92,7 +105,54 @@ ul li {
   color: #759CFF;
 } */
 
+/* 체크박스 */
+/* li::before {
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid black;
+  vertical-align: -5px;
+} */
+
+.todo-list input {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 70%;
+}
+
+li::after {
+  content: "";
+  /* position 속성을 적용하면 display는 자동으로 block으로 변경 */
+  position: absolute;
+  /* top: -3px; */
+  left: 16px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/Frame.png) 0 0/20px no-repeat;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.text-hide {
+  /* 어떤 상황에서도 대처할 수 있게 만든 코드 */
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  /* 경로에 따라 html 요소 자르는 속성
+  inset(50%)는 상하좌우에서 영역의 50%씩 자르는 것 */
+  clip-path: inset(50%);
+}
+
 li img {
   position: absolute;
   right: 5%;
+}
+
+/* 삭제 버튼 */
+button {
+  position: absolute;
+  left: 85%;
 }
