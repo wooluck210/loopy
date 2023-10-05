@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "144a51267cd99531",
+    "type": "split",
+    "children": [
+      {
+        "id": "a280b8ac0d8cd631",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c625796557203814",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9b3610b6799da85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동료특강.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fe30a4db42e97ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "2733b64ea068d14f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "daa62a9cd874757c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dc30e9d4fd39ce67",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1c567ee939f4e9d9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 252.5
+  },
+  "right": {
+    "id": "adcb60f0dc3f1bd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f126cd74c11474d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "531aa904b0aab45c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "동료특강.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d98c0c9e3ac14960",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "동료특강.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "513fd11ac33a6d33",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb3580a309344731",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "동료특강.md"
+              }
+            }
+          },
+          {
+            "id": "34055f66e7cc5c98",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "e9b3610b6799da85",
+  "lastOpenFiles": [
+    "oop_0923/index.html",
+    "oop_0923",
+    "Untitled Diagram.svg",
+    "동료특강.md",
+    "README.md"
+  ]
+}
